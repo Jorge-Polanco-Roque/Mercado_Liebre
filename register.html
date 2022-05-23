@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- HEADER: LOGO -->
+    <header>
+        <div class="center">
+            <img width=450 src="C:/Users/POLANJ04/Desktop/Master/Full Stack Course (DigitalHouse)/Code/Clase 11 - Ejercicio/public/images/logo-mercado-liebre.svg" alt="logo"> 
+        </div><br><br>
+    </header>
+
+    <!-- Sección Form -->
+    <form action="">
+        
+        <h2>Ingrese su información:</h2><br>
+
+        <!-- Ingresar texto -->
+        <label for="nombre"name><strong>Ingrese nombre completo:</strong></label>
+        <input type="text" id="nombre" name="user_name" required placeholder="Nombre y apellido"><br><br>
+
+        <label for="nombre"name><strong>Nombre de usuario:</strong></label>
+        <input type="text" id="nombre" name="user_surname" required placeholder="Nombre de usuario"><br><br>
+
+        <!-- Ingresar fecha de nacimiento -->
+        <label for="nombre"name><strong>Fecha de nacimiento:</strong></label>
+        <input type="number" id="day" name="date_day" min="1" max="31" placeholder="Día">
+        <input type="month" name="month-year"><br><br>
+
+        <!-- Dirección -->
+        <label for="direccion"><strong>Coloque su dirección:</strong></label><br>
+        <textarea name="" id="" cols="50" rows="3" placeholder="Calle, Colonia, Ciudad, Código Postal"></textarea><br><br>
+
+        <!-- Tipo de perfil -->
+        <label for=""><strong>Tipo de perfil:</strong></label><br>
+            <label for="">Comprador</label>
+                <input type="radio" name="transacción" checked><br>
+            <label for="">Vendedor</label>
+                <input type="radio" name="transacción"><br><br>
+
+        <!-- Categorías de interés -->
+        <label for=""><strong>Categorías de interés:</strong></label><br>
+            <label for="">Electro</label>
+                <input type="checkbox"><br>
+            <label for="">Moda</label>
+                <input type="checkbox"><br>
+            <label for="">Hogar</label>
+                <input type="checkbox"><br>
+            <label for="">Juguetería</label>
+                <input type="checkbox"><br>
+            <label for="">Vida sana</label>
+                <input type="checkbox"><br><br>
+
+        <!-- Foto de usuario -->
+        <label for="Foto"><strong>Suba su fotografía:</strong></label>
+            <input type="image" id="image" alt="Subir foto"><br><br>
+
+        <!-- Contraseña -->
+        <label for="password"><strong>Ingrese contraseña:</strong></label>
+            <input type="password" required placeholder="Contraseña"><br><br>
+        
+        <!-- Botones -->
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar"><br><br>
+        
+        <button><a href="home.html">Home</button><br><br></li>
+
+
+    </form>
+
+
+    
+</body>
+</html>
