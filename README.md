@@ -1,2 +1,2 @@
 # Mercado_Liebre
-Nodejs / HTML / CSS
+Node.js / HTML / CSS
