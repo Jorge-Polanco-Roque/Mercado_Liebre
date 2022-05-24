@@ -1,0 +1,175 @@
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #EAC926;
+    min-width: 361;
+}
+
+header {
+    background-color: #EAC926;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+}
+
+body article.center img {
+    background-color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+}
+
+header div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.footer {
+    background-color: white;
+    text-align: center;
+    border: solid white 10px;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+main {
+    width: 98%;
+    margin: 0 auto;
+}
+
+main article {
+    background-color: #fff;    
+    margin: 20px 0px;
+}
+
+div.bullets_1 {
+    display: inline-table;
+}
+
+section {
+    text-align: center;
+}
+
+.barra {
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+body main article.style_1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    border-top: 1px solid #ebebeb;
+    border: 15px;
+    /* box-shadow: 0px 0px 10px rgb(100,100,100); */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    position: relative;
+}
+
+main article {
+    width: 90vw;
+    margin: auto;
+}
+
+.white_bg {
+    background-color: white;
+    padding: 5px;
+}
+
+.gray_bg {
+    background-color: lightgray;
+}
+
+.left {
+    text-align: left;
+}
+
+.green_text {
+    color: lightseagreen;
+}
+
+.green_truck{
+    color: lightseagreen;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid lightseagreen;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+}
+
+h2 {
+    font-style: bolder;
+    font: black;
+    background-color: lightgray;
+    margin: 20px 0px;
+}
+
+@media (min-width: 300px){
+    main div.box {
+        /* width: 40vw; */
+        display: block;
+    }
+}
+
+@media (min-width: 600px){
+    main div.box {
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
+        /* align-items: flex-start; */
+        width: 100%;
+        /* font-size: .8rem; */
+    }
+}
+
+button:hover {
+    background-color: #1a73e8;
+    color: #fff;
+}
+
+footer i:hover {
+    transition: 2s;
+    transform: rotate(-360deg);
+}
+
+i.green_truck:hover {
+    transition: 1s;
+    transform: rotate(-90deg);
+}
+
+main article:hover {
+    box-shadow: 0px 10px 0px 0px darkblue;
+}
