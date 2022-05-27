@@ -11,11 +11,14 @@ app.listen(PORT, function(){console.log(`Servidor corriendo en el puerto ${PORT}
 app.get("/", function(req,res){
     res.sendFile(__dirname + '/view/home.html')});
 
-app.get("/login", function(req,res){
+app.get("/", function(req,res){
     res.sendFile(__dirname + '/view/login.html')});
 
-app.get("/register", function(req,res){
+app.get("/", function(req,res){
     res.sendFile(__dirname + '/view/register.html')});
+
+app.get("/", function(req,res){
+    res.sendFile(__dirname + '/public/style.css')});
     
         
 
