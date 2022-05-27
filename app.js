@@ -11,12 +11,12 @@ app.listen(PORT, ()=>{
     console.log('Servidor corriendo en el puerto 3000')
 });
 
-app.get("/", function(req,res){
+app.get("/home", function(req,res){
     res.sendFile(path.resolve(__dirname, './view/home.html'))});
     
- app.get("/", function(req,res){
+ app.get("/login", function(req,res){
     res.sendFile(path.resolve(__dirname, './view/login.html'))});
 
-app.get("/", function(req,res){
+app.get("/register", function(req,res){
     res.sendFile(path.resolve(__dirname, './view/register.html'))});
         
