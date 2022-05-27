@@ -11,7 +11,7 @@ app.listen(PORT, ()=>{
     console.log('Servidor corriendo en el puerto 3000')
 });
 
-app.get("/home", function(req,res){
+app.get("/", function(req,res){
     res.sendFile(path.resolve(__dirname, './view/home.html'))});
     
  app.get("/login", function(req,res){
