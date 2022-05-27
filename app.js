@@ -12,16 +12,11 @@ app.listen(PORT, ()=>{
 });
 
 app.get("/", function(req,res){
-    res.sendFile(path.resolve(__dirname, './view/home.html')}
-                ));
+    res.sendFile(path.resolve(__dirname, './view/home.html'))});
     
  app.get("/login", function(req,res){
-    res.sendFile(path.resolve(__dirname, './view/login.html')}
-                ));
+    res.sendFile(path.resolve(__dirname, './view/login.html'))});
 
 app.get("/register", function(req,res){
-    res.sendFile(path.resolve(__dirname, './view/register.html')}
-                ));
+    res.sendFile(path.resolve(__dirname, './view/register.html'))});
         
-
-
